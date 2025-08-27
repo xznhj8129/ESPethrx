@@ -3,6 +3,7 @@ Use WT32-ETH01 ESP32 as IP-enabled serial receiver for drones, UDP UART Bridge (
 Tunnels raw bytes between a flight controller UART and the network over UDP.  
 - **MSP**: plain request/response over UDP (default port **5760**)  
 - **MAVLink**: sends to broadcast until a peer talks (default port **14550**)  
+
 Read https://github.com/egnor/wt32-eth01 in depth for how to deal with this thing.
 
 ---
@@ -10,6 +11,7 @@ Read https://github.com/egnor/wt32-eth01 in depth for how to deal with this thin
 - Fix AP rapid cycling when connected router is booting
 - Convert to platformio
 - Test Mavlink
+- Add TCP
 
 ---
 
